@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>राधे शुक्ला | राष्ट्रीय स्वयंसेवक संघ श्री गंगा नगर</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-theme">
+    <!-- Language & Theme Toggle -->
+    <div class="controls">
+        <button class="theme-toggle" id="themeToggle">
+            <i class="fas fa-moon"></i>
+            <span class="hindi">थीम बदलें</span>
+            <span class="english">Toggle Theme</span>
+        </button>
+        <button class="language-toggle" id="languageToggle">
+            <i class="fas fa-language"></i>
+            <span class="hindi">English</span>
+            <span class="english">हिंदी</span>
+        </button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="rss logo.jpg" alt="RSS Logo" class="rss-logo">
+                <div class="logo-text">
+                    <span class="hindi">राष्ट्रीय स्वयंसेवक संघ</span>
+                    <span class="english">Rashtriya Swayamsevak Sangh</span>
+                    <small class="hindi">श्री गंगा नगर</small>
+                    <small class="english">Shri Ganga Nagar</small>
+                </div>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active" data-i18n="home">
+                    <span class="hindi">मुखपृष्ठ</span>
+                    <span class="english">Home</span>
+                </a>
+                <a href="#about" class="nav-link" data-i18n="about">
+                    <span class="hindi">परिचय</span>
+                    <span class="english">About</span>
+                </a>
+                <a href="#gallery" class="nav-link" data-i18n="gallery">
+                    <span class="hindi">गैलरी</span>
+                    <span class="english">Gallery</span>
+                </a>
+                <a href="#contact" class="nav-link" data-i18n="contact">
+                    <span class="hindi">संपर्क</span>
+                    <span class="english">Contact</span>
+                </a>
+            </div>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-badge">
+                        <span class="hindi">शारीरिक शिक्षा प्रमुख</span>
+                        <span class="english">Sharirik Shiksha Pramukh</span>
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="title-line hindi">राधे</span>
+                        <span class="title-line english">Radhey</span>
+                        <span class="title-line highlight hindi">शुक्ला</span>
+                        <span class="title-line highlight english">Shukla</span>
+                    </h1>
+                    <p class="hero-description hindi">
+                        राष्ट्रीय स्वयंसेवक संघ, श्री गंगा नगर में शारीरिक शिक्षा प्रमुख के रूप में देशभक्ति और समर्पण के साथ सेवारत।
+                    </p>
+                    <p class="hero-description english">
+                        Serving as Sharirik Shiksha Pramukh in Rashtriya Swayamsevak Sangh, Shri Ganga Nagar with patriotism and dedication.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-count="5">0</span>
+                            <span class="stat-label hindi">वर्ष अनुभव</span>
+                            <span class="stat-label english">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="100">0</span>
+                            <span class="stat-label hindi">शिविर</span>
+                            <span class="stat-label english">Camps</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="500">0</span>
+                            <span class="stat-label hindi">स्वयंसेवक</span>
+                            <span class="stat-label english">Volunteers</span>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-hands-helping"></i>
+                            <span class="hindi">जुड़ें</span>
+                            <span class="english">Join Us</span>
+                        </a>
+                        <a href="#gallery" class="btn btn-secondary">
+                            <i class="fas fa-images"></i>
+                            <span class="hindi">गैलरी</span>
+                            <span class="english">Gallery</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-frame">
+                        <img src="radhey main.jpg" alt="Radhey Shukla" class="profile-image">
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="hindi">परिचय</span>
+                    <span class="english">About Me</span>
+                </h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle hindi">
+                    संघ के प्रति समर्पण और राष्ट्र सेवा
+                </p>
+                <p class="section-subtitle english">
+                    Dedication to Sangh and Nation Service
+                </p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 class="hindi">राष्ट्र सेवा का संकल्प</h3>
+                    <h3 class="english">Commitment to Nation Service</h3>
+                    <p class="hindi">
+                        राष्ट्रीय स्वयंसेवक संघ के श्री गंगा नगर इकाई में शारीरिक शिक्षा प्रमुख के रूप में, मैं युवाओं को शारीरिक रूप से मजबूत, मानसिक रूप से सक्षम और राष्ट्रभक्ति से ओत-प्रोत बनाने के लिए प्रतिबद्ध हूं। संघ के विभिन्न शिविरों, प्रशिक्षण कार्यक्रमों और सामुदायिक सेवा गतिविधियों के माध्यम से हम युवाओं का सर्वांगीण विकास करते हैं।
+                    </p>
+                    <p class="english">
+                        As the Sharirik Shiksha Pramukh of Rashtriya Swayamsevak Sangh's Shri Ganga Nagar unit, I am committed to making youth physically strong, mentally capable, and imbued with patriotism. Through various Sangh camps, training programs, and community service activities, we ensure holistic development of youth.
+                    </p>
+                    <div class="qualities">
+                        <div class="quality">
+                            <div class="quality-icon">
+                                <i class="fas fa-dumbbell"></i>
+                            </div>
+                            <div class="quality-content">
+                                <h4 class="hindi">शारीरिक प्रशिक्षण</h4>
+                                <h4 class="english">Physical Training</h4>
+                                <p class="hindi">युवाओं का शारीरिक विकास</p>
+                                <p class="english">Physical development of youth</p>
+                            </div>
+                        </div>
+                        <div class="quality">
+                            <div class="quality-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="quality-content">
+                                <h4 class="hindi">सामूहिक प्रशिक्षण</h4>
+                                <h4 class="english">Group Training</h4>
+                                <p class="hindi">सामूहिक एकता और अनुशासन</p>
+                                <p class="english">Collective unity and discipline</p>
+                            </div>
+                        </div>
+                        <div class="quality">
+                            <div class="quality-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="quality-content">
+                                <h4 class="hindi">राष्ट्र सेवा</h4>
+                                <h4 class="english">Nation Service</h4>
+                                <p class="hindi">देश के प्रति समर्पण</p>
+                                <p class="english">Dedication to the nation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="hindi">गैलरी</span>
+                    <span class="english">Gallery</span>
+                </h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle hindi">
+                    संघ की गतिविधियों और कार्यक्रमों की झलक
+                </p>
+                <p class="section-subtitle english">
+                    Glimpse of Sangh activities and programs
+                </p>
+            </div>
+            <div class="gallery-grid">
+                <!-- 11 images will be added here -->
+                <div class="gallery-item">
+                    <img src="IMG-20250929-WA0006.jpg" alt="RSS Activity 1" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h4 class="hindi">शारीरिक प्रशिक्षण</h4>
+                            <h4 class="english">Physical Training</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="IMG-20250929-WA0008.jpg" alt="RSS Activity 2" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h4 class="hindi">शिविर कार्यक्रम</h4>
+                            <h4 class="english">Camp Program</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="IMG-20250929-WA0009.jpg" alt="RSS Activity 3" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h4 class="hindi">युवा प्रशिक्षण</h4>
+                            <h4 class="english">Youth Training</h4>
+                        </div>
+                    </div>
+                </div>
+                    <img src="IMG-20250929-WA0010.jpg" alt="RSS Activity 3" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h4 class="hindi">युवा प्रशिक्षण</h4>
+                            <h4 class="english">Youth Training</h4>
+                        </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="hindi">संपर्क करें</span>
+                    <span class="english">Contact</span>
+                </h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle hindi">
+                    राष्ट्रीय स्वयंसेवक संघ से जुड़ें
+                </p>
+                <p class="section-subtitle english">
+                    Join Rashtriya Swayamsevak Sangh
+                </p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 class="hindi">फोन</h4>
+                            <h4 class="english">Phone</h4>
+                            <a href="tel:+919565343954">+91 95653 43954</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 class="hindi">ईमेल</h4>
+                            <h4 class="english">Email</h4>
+                            <a href="mailto:radheyshuklabdmt@gmail.com">radheyshuklabdmt@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 class="hindi">इंस्टाग्राम</h4>
+                            <h4 class="english">Instagram</h4>
+                            <a href="https://www.instagram.com/radhey_shukla99" target="_blank">@radhey_shukla99</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 class="hindi">व्हाट्सएप</h4>
+                            <h4 class="english">WhatsApp</h4>
+                            <a href="https://wa.me/919565343954" target="_blank">Message on WhatsApp</a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <h3 class="hindi">संदेश भेजें</h3>
+                    <h3 class="english">Send Message</h3>
+                    
+                    <div class="form-group">
+                        <input type="text" placeholder="आपका नाम | Your Name" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="ईमेल | Email" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="फोन नंबर | Phone Number" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-select" required>
+                            <option value="">रुचि चुनें | Select Interest</option>
+                            <option value="join" class="hindi">संघ से जुड़ना चाहते हैं</option>
+                            <option value="join" class="english">Want to join Sangh</option>
+                            <option value="volunteer" class="hindi">स्वयंसेवक बनना चाहते हैं</option>
+                            <option value="volunteer" class="english">Want to become volunteer</option>
+                            <option value="training" class="hindi">प्रशिक्षण में रुचि</option>
+                            <option value="training" class="english">Interested in training</option>
+                            <option value="other" class="hindi">अन्य</option>
+                            <option value="other" class="english">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="आपका संदेश | Your Message" class="form-textarea" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        <span class="hindi">संदेश भेजें</span>
+                        <span class="english">Send Message</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="rss-logo.png" alt="RSS Logo" class="footer-logo">
+                    <div class="footer-text">
+                        <h3 class="hindi">राष्ट्रीय स्वयंसेवक संघ</h3>
+                        <h3 class="english">Rashtriya Swayamsevak Sangh</h3>
+                        <p class="hindi">श्री गंगा नगर</p>
+                        <p class="english">Shri Ganga Nagar</p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4 class="hindi">जल्दी लिंक</h4>
+                        <h4 class="english">Quick Links</h4>
+                        <a href="#home" class="hindi">मुखपृष्ठ</a>
+                        <a href="#home" class="english">Home</a>
+                        <a href="#about" class="hindi">परिचय</a>
+                        <a href="#about" class="english">About</a>
+                        <a href="#gallery" class="hindi">गैलरी</a>
+                        <a href="#gallery" class="english">Gallery</a>
+                        <a href="#contact" class="hindi">संपर्क</a>
+                        <a href="#contact" class="english">Contact</a>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <h4 class="hindi">हमसे जुड़ें</h4>
+                    <h4 class="english">Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="tel:+919565343954" class="social-link">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                        <a href="https://wa.me/919565343954" class="social-link">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.instagram.com/radhey_shukla99" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="mailto:radheyshuklabdmt@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="hindi">© 2025 राधेय शुक्ला - राष्ट्रीय स्वयंसेवक संघ श्री गंगा नगर। सर्वाधिकार सुरक्षित।</p>
+                <p class="english">© 2025 Radhey Shukla - Rashtriya Swayamsevak Sangh Shri Ganga Nagar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
